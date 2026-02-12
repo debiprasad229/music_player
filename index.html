@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+
+            <div class="home bg-grey m-1 p-1">
+
+                <ul>
+                    <li><img class="invert" src="SVGs/home.svg" alt="">Home</li>
+                    <li><img class="invert" src="SVGs/search.svg" alt="">Search</li>
+                </ul>
+                <div class="invert cross"><img src="SVGs/cross.svg" alt=""></div>
+            </div>
+            <div class="library bg-grey m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="" alt="">
+                    <h2> My Library</h2>
+                </div>
+                <div class="songslist">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <span>Listen more songs here</span>
+                    <br>
+                    <div><a href="https://www.youtube.com/playlist?list=PLrxXqHDadmdcBen3zGdAWiGSVOcS0JfMK">Alan
+                            Walker</a></div>
+                    <div><a
+                            href="https://www.youtube.com/playlist?list=PL9bw4S5ePsEE0jGfUgUMvzeWAaMPcqHL9">Devotional</a>
+                    </div>
+                    <div><a href="https://www.youtube.com/playlist?list=PLSrrQcAI5QkcaED8C8EmLAkYBItt6fQah">Arjit
+                            Singh</a></div>
+                    <div><a href="https://www.youtube.com/playlist?list=PLRBp0Fe2Gpgn8Y9qI-p0aTxVtw8onBSFj">NCS</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="right ">
+            <div class="header">
+                <span>
+                    <h1>Welcome to My Music Player</h1>
+                </span>
+                <div class="menu invert">
+                    <img src="SVGs/menu.svg" alt="">
+                </div>
+            </div>
+            <div class="my-playlists">
+                <h1>My Playlists</h1>
+                <div class="cardcontainer">
+                    <div data-folder="Alan_Walker" class="card">
+                        <img src="Pictures/Walker.png" alt="">
+                        <h2>Energy Hits</h2>
+                        <p>Your favorite artist Alan Walker songs are here
+                        </p>
+                    </div>
+                    <div data-folder="Devotional" class="card">
+                        <img src="Pictures/Krishna1.jpg" alt="">
+                        <h2>Devotional Songs</h2>
+                        <p>Songs to calm Your mood and fill you with happiness
+                        </p>
+                    </div>
+                    <div data-folder="Arjit_Singh" class="card">
+                        <img src="Pictures/Arjit Singh 1.jpg" alt="">
+                        <h2>Arjit Singh Songs</h2>
+                        <p>Your favorite artist Arjit Singh songs for you
+                        </p>
+                    </div>
+                    <div data-folder="NCS" class="card">
+                        <img src="Pictures/NCS.jpg" alt="">
+                        <h2>No Copyright Songs</h2>
+                        <p>Here you can find the No Copyright Songs
+                        </p>
+                    </div>
+                    <div data-folder="Other_Songs" class="card">
+                        <img src="Pictures/Other.webp" alt="">
+                        <h2>Other Songs</h2>
+                        <p>
+                            Other Songs You Like
+                        </p>
+                    </div>
+                    <div class="playbar">
+
+                        <div class="songinfo">
+                        </div>
+
+
+                        <div class="playpause">
+                            <img id="previous" src="SVGs/previous.svg" alt="">
+                            <img id="play" src="SVGs/play.svg" alt="">
+                            <img id="next" src="SVGs/next.svg" alt="">
+                        </div>
+
+                        <div class="volume">
+                            <img src="SVGs/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" placeholder="range" name="volume" id="">
+                            </div>
+                        </div>
+
+                        <div class="songtime">
+                        </div>
+                        <div class="seekbar">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+</body>
+
+</html>
