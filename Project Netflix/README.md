@@ -1,2 +1,0 @@
-The Netflix Clone is a responsive webpage built using HTML and CSS, designed to mimic the user interface of Netflix. It features a visually appealing homepage with a hero section, movie thumbnails, and call-to-action buttons similar to the original platform. The design includes a dark theme, smooth hover effects, and a structured layout to enhance the user experience. Though it is a static clone, it effectively showcases front-end development skills in styling, positioning, and responsiveness.
-Here's the link-https://name-debi2.netlify.app/. Hosted on Netlify.
